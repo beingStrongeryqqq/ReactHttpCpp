@@ -1,0 +1,65 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\obj\x64\Debug\)包含从另一个项目(ReactorHttp-Cpp.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  正在验证源
+  正在将源远程复制到“192.168.188.130”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Buffer.cpp
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(75,22): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(75,22): warning :    75 |     int size = strlen(data);
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(75,22): warning :       |                ~~~~~~^~~~~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(97,23): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(97,23): warning :    97 |     int result = readv(fd, vec, 2);
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(97,23): warning :       |                  ~~~~~^~~~~~~~~~~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(127,25): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(127,25): warning :   127 |         int count = send(socket, m_data + m_readPos, readable, MSG_NOSIGNAL);
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\Buffer.cpp(127,25): warning :       |                     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Channel.cpp
+  Dispatcher.cpp
+  EpollDispatcher.cpp
+  EventLoop.cpp
+  HttpRequest.cpp
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(23,24): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(23,24): warning :    23 |     int length = space - start;
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(23,24): warning :       |                  ~~~~~~^~~~~~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(84,24): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(84,24): warning :    84 |     int lineSize = end - start;
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(84,24): warning :       |                    ~~~~^~~~~~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(109,28): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(109,28): warning :   109 |         int lineSize = end - start;
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(109,28): warning :       |                        ~~~~^~~~~~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(114,33): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(114,33): warning :   114 |             int keyLen = middle - start;
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(114,33): warning :       |                          ~~~~~~~^~~~~~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(115,41): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(115,41): warning :   115 |             int valueLen = end - middle - 2;
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(115,41): warning :       |                            ~~~~~~~~~~~~~^~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(245,50): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(245,50): warning :   245 |             str.append(1, hexToDec(from[1]) * 16 + hexToDec(from[2]));
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(245,50): warning :       |                           ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(354,23): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(354,23): warning :   354 |         int len = read(fd, buf, sizeof buf);
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\HttpRequest.cpp(354,23): warning :       |                   ~~~~^~~~~~~~~~~~~~~~~~~~~
+  Httpresponse.cpp
+  main.cpp
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\main.cpp(14,31): warning : conversion from ‘int’ to ‘short unsigned int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\main.cpp(14,31): warning :    14 |     unsigned short port = atoi(argv[1]);
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\main.cpp(14,31): warning :       |                           ~~~~^~~~~~~~~
+  PollDispatcher.cpp
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\PollDispatcher.cpp(41,31): warning : conversion from ‘int’ to ‘short int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\PollDispatcher.cpp(41,31): warning :    41 |             m_fds[i].events = events;
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\PollDispatcher.cpp(41,31): warning :       |                               ^~~~~~
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\PollDispatcher.cpp(92,31): warning : conversion from ‘int’ to ‘short int’ may change value [-Wconversion]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\PollDispatcher.cpp(92,31): warning :    92 |             m_fds[i].events = events;
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\PollDispatcher.cpp(92,31): warning :       |                               ^~~~~~
+  SelectDispatcher.cpp
+  TcpConnection.cpp
+  TcpServer.cpp
+  ThreadPool.cpp
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\ThreadPool.cpp(53,17): warning : operation on ‘((ThreadPool*)this)->ThreadPool::m_index’ may be undefined [-Wsequence-point]
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\ThreadPool.cpp(53,17): warning :    53 |         m_index = ++m_index % m_threadNum;
+D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\ThreadPool.cpp(53,17): warning :       |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+  WorkerThread.cpp
+  正在链接对象
+  ReactorHttp-Cpp.vcxproj -> D:\BaiduNetdiskDownload\【爱编程的大炳】高并发【Reactor】服务器 - CC++ 版\2.资料\项目代码\ReactorHttp-Cpp\ReactorHttp-Cpp\bin\x64\Debug\ReactorHttp-Cpp2.out
